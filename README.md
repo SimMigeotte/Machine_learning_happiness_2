@@ -1,7 +1,7 @@
 # Machine_learning_happiness3
 Master: Sustainable management and Technology, at IMD, EPFL, HEC-UNIL.
 
-Course: "Data science and Machine learning", second semester.
+Course: "Data science and Machine learning", second semester 2022/2023.
 
 Authors: Sofia Estero, Lorenzo Parma, Siméon Migeotte
 
