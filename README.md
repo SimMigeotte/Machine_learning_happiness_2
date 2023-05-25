@@ -1,7 +1,10 @@
 # Machine_learning_happiness3
 Master: Sustainable management and Technology, at IMD, EPFL, HEC-UNIL.
+
 Course: "Data science and Machine learning", second semester.
+
 Authors: Sofia Estero, Lorenzo Parma, Siméon ...
+
 This read.me provides an overview on the project, a more detailed content can be found in the assignment notebook. 
 
 ## Introduction
