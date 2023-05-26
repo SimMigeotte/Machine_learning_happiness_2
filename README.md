@@ -24,8 +24,7 @@ After checking the cleanness of the data and performing a dependent variable exp
 ## Regression analysis
 First, it was necessary to classify our research question. Indeed, happiness is measured on a continuous scale, entailing that the problem faced is an instance of a regression problem. In this regard, we also defined the metrics used to evaluate our models, that are: R2, MAE, MSE and RMSE, describing the reasons ceiled behind the choice of these measures. Consequently, all the models are applied, commencing with a baseline algorithm exemplified by Linear Regression, and progressing to gradient boosting, support vector regression, decision tree, random forest, until Neural Networks. For each of the examined models, we endeavored to enhance their performance by implementing optimized parameters or by applying regularization techniques. The result of each model was systematically reported in a common table, which is also represented below, that summarized all the tests conducted.
 
-<img width="809" alt="Schermata 2023-05-25 alle 14 37 50" src="https://github.com/sofiaestero/Machine_learning_happiness3/assets/114024000/b163fcc7-9ba0-4c2d-af3d-669733eaad86">
-
+<img width="1059" alt="Schermata 2023-05-27 alle 00 36 12" src="https://github.com/sofiaestero/Machine_learning_happiness3/assets/114024000/279ce36a-48b8-4e9f-b34f-a65084164789">
 
 ## Discussion
 
