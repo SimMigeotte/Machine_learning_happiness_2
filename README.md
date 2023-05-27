@@ -26,9 +26,17 @@ First, it was necessary to classify our research question. Indeed, happiness is 
 
 <img width="1059" alt="Schermata 2023-05-27 alle 00 36 12" src="https://github.com/sofiaestero/Machine_learning_happiness3/assets/114024000/279ce36a-48b8-4e9f-b34f-a65084164789">
 
-## Discussion
+We provide a detailed ranking for each evaluation metric in the notebook, here are we quote the most important considerations:
+- The Neural Network Optimized model achieved the highest R2 score of 74.53% on the test set. Ridge and Lasso regularization techniques outperformed other nonparametric models, with R2 scores of 74% and 73.71% respectively. On the other hand, models based on 2 degrees polynomial regression lead to poor results with an R2 score of -84%. 
+- Also according to the MAE metric, the Neural Network Optimized approach demonstrates the best performance, with a remarkably low value of 0.3773.
+- The Neural Network Optimized model achieved the lowest MSE of 0.1883, indicating minimal squared deviations between its predictions and the actual happiness values. Lasso and Ridge regularization techniques also demonstrated solid performance.
+- Lastly,the lowest RMSE on the test set is again achieved by the Neural Network Optimized, with an value of 0.4340. This indicates that the model's predictions exhibit minimal deviations from the actual happiness values. Similar conclusions as above for LASSO and Ridge. 
 
+## Discussion
+For the current problem, NN has shown to outperform other models in all the metrics considered. Indeed, NN models have the ability to capture complex non-linear relationships between input features and target variables, which characterize the patterns of the current happiness rresearch question. Nonetheless, NN models are also capable of automatically extracting relevant features from the input data. This alleviates the need for manual feature engineering, which can be a challenging and time-consuming process as NN models demonstrated, in this case, relatively shorter training and running times compared to other complex models. Furthermore, it is noteworthy that the Lasso and Ridge regularization techniques, known for their simplicity of implementation, exhibited the second and third lowest errors among all the metrics examined. This finding is encouraging as it indicates their suitability for addressing the research question at hand without requiring advanced machine learning expertise to deploy.
+It is necessary to recognize that the dataset used in this study was relatively small, clean and it did not suffer from the problem of high dimensionality, with a larger number of features and potentially more complex relationships to capture, the training and running time of NN models may be affected. Therefore, testing the models on datasets with more features and potentially longitudinal data can provide insights into the scalability and robustness of NN models.
 
 
 # Conclusion
-
+In the present study, we conducted an exploratory data analysis comprising data visualization, clustering, and regression analysis to examine the intricate relationship between country-specific statistics and happiness. Clustering techniques were employed to categorize countries based on their happiness and ecological scores. 
+Subsequently, a comprehensive assessment of various regression algorithms was performed to model the prediction of happiness scores using our dataset. Notably, a NN we built demonstrated exceptional performance in accurately forecasting happiness scores, followed by a polynomial regresson incorporating regularization techniques such as Lasso and Ridge. The caracteristics of the current dataset allowed us to achieve satisfactory results with a reasonable running time, however future research should explore the performance of the models analyzed on larger datasets. 
