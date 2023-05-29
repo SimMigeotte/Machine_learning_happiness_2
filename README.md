@@ -1,11 +1,11 @@
 # Machine_learning_happiness3
-Master: Sustainable management and Technology, at IMD, EPFL, HEC-UNIL.
+Master: Sustainable Management and Technology, at IMD, EPFL, HEC-UNIL.
 
 Course: "Data science and Machine learning", second semester 2022/2023.
 
 Authors: Sofia Estero, Lorenzo Parma, Siméon Migeotte
 
-This read.me provides an overview on the project, a more detailed content can be found in the assignment notebook. 
+This read.me provides an overview on the project, outlining the description and the main results. A more detailed content can be found in the assignment notebook. 
 
 ## Introduction
 This research seeks to quantitatively analyze the factors that influence varying levels of happiness across countries. To achieve this, the study will commence with a brief review of recent literature and will then build upon these insights by analyzing the 2016 world metrics dataset. This dataset includes data from reputable sources such as the World Health Organization, Global Ecological Footprint, Human Freedom Index, and World Happiness Report. The paper performs an analysis of the data and tries to build different models with the aim of predicting the value of happiness according to the variables provided by the dataset, in particular: linear and polynomial regression, Support Vector Regressor, Gradient Boosting, Decision tree, Random Forest and Neural Network. In the last chapter the results of these model are compared and evaluated according to three main metrics: MAE; MSE and RMSE. 
