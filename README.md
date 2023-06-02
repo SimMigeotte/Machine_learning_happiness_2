@@ -22,7 +22,7 @@ The measurement of happiness on a continuous scale necessitates treating the pro
 <img width="1059" alt="Schermata 2023-05-27 alle 00 36 12" src="https://github.com/sofiaestero/Machine_learning_happiness3/assets/114024000/279ce36a-48b8-4e9f-b34f-a65084164789">
 
 We provide a detailed ranking for each evaluation metric in the notebook, with clear explanations of the results and an extensive discussion on the findings. Here, we report the most important considerations:
-- The Neural Network Optimized model achieved the highest R2 score of 74.53% on the test set. Ridge and Lasso regularization techniques outperformed the other nonparametric models, with R2 scores of 74% and 73.71% respectively. On the other hand, models based on 2 degrees polynomial regression lead to poor results with an R2 score of -84%. 
+- Hyperparameter tuning proved successfull across models.
 - According to the MAE metric, the Neural Network Optimized approach demonstrates the best performance, with a remarkably low value of 0.3773.
 - The Neural Network Optimized model achieved the lowest MSE of 0.1883, indicating minimal squared deviations between its predictions and the actual happiness values. Lasso and Ridge regularization techniques also demonstrated solid performance.
 - The lowest RMSE on the test set is again achieved by the Neural Network Optimized, with a value of 0.4340. This indicates that the model's predictions exhibit minimal deviations from the actual happiness values. Similar conclusions as above for LASSO and Ridge. 
