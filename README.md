@@ -5,6 +5,7 @@ Course: "Data science and Machine learning", second semester 2022/2023.
 
 Authors: Sofia Estero, Lorenzo Parma, Siméon Migeotte.
 
+Youtube  video: https://www.youtube.com/watch?v=t3avFaiXLng&feature=youtu.be&ab_channel=SofiaEstero
 This read.me provides an overview on the project, outlining the description and the main results. A more detailed content can be found in the assignment notebook. 
 
 ## Introduction
